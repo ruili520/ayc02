@@ -1,0 +1,258 @@
+/* 头部 */
+.mobile {
+  padding: 4.2667vw;
+  position: relative;
+}
+.mobile h2 {
+  font-size: 5.8667vw;
+  font-weight: bold;
+  margin-bottom: 4.6667vw;
+}
+.mobile .input {
+  height: 11.7333vw;
+  border-bottom: 1px solid #fbfcfd;
+  line-height: 10.7333vw;
+  display: flex;
+  justify-content: flex-start;
+  color: #d4d5da;
+  position: relative;
+  font-size: 0.8rem;
+}
+.login-top {
+  padding-top: 13.3333vw;
+}
+.mobile .input input {
+  width: calc(100% - 14vw);
+}
+.img-l {
+  width: 3.7333vw;
+  height: 4.8vw;
+  padding: 3vw;
+}
+input {
+  outline: none;
+  border: none;
+}
+.code {
+  position: absolute;
+  top: 0.2667vw;
+  right: 0;
+  width: 27vw;
+  height: 9.7333vw;
+  background: #f4f8ff;
+  text-align: center;
+  line-height: 9.7333vw;
+  border-bottom-left-radius: 6vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  border-top-right-radius: 6vw;
+  font-size: 3.2vw;
+  /* 发送验证码  用这个的话父元素必须是input*/
+}
+/* 手机号  验证码 */
+.mistake {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3.5333vw;
+  position: relative;
+}
+.mistake p {
+  font-size: 3.2vw;
+  color: #ff9096;
+}
+.mistake1 {
+  display: none;
+}
+.mistake img {
+  width: 4.2vw;
+  height: 4.2vw;
+  padding-right: 3.5333vw;
+}
+/* 报错 */
+
+.select {
+  width: 69.3333vw;
+  margin: 0 auto;
+  padding: 12.3333vw 0 6.3333vw 0;
+}
+.select p {
+  color: #74d4ff;
+}
+.select li {
+  text-align: center;
+  width: 100%;
+  height: 12.2667vw;
+  line-height: 12.2667vw;
+  font-size: 3.7333vw;
+}
+.enter {
+  border-bottom-left-radius: 6vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  border-top-right-radius: 6vw;
+  background: #f4f8ff;
+  color: #c7cfdd;
+}
+.colore {
+  background: #00bbff;
+  color: #fff;
+}
+/* 选择登录 */
+.social {
+  width: 69.3333vw;
+  margin: 0 auto;
+}
+.social li {
+  display: flex;
+  justify-content: space-between;
+}
+.direct p {
+  font-size: 2.6667vw;
+  color: #bdbdbd;
+}
+.direct div {
+  width: 17.8vw;
+  height: 0.5333vw;
+  background: #f6f7f9;
+  margin-top: 2vw;
+}
+.social img {
+  width: 5.3333vw;
+  height: 5.3333vw;
+  padding: 8vw;
+}
+/* 社交账户 */
+.agreement {
+  display: flex;
+  justify-content: center;
+}
+.agreement li {
+  display: flex;
+  justify-content: flex-start;
+}
+.agreement div {
+  width: 3.6667vw;
+  height: 3.6667vw;
+  background: #6bd1ff;
+  border-radius: 0.5333vw;
+  border: 0.2667vw solid #6bd1ff;
+}
+.agreement img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2.5333vw;
+}
+.agreement span {
+  font-size: 2.6667vw;
+  padding-left: 1.3333vw;
+  color: #b0b4bb;
+}
+.eye {
+  width: 4vw;
+  height: 2.6667vw;
+  position: absolute;
+  top: 4.2667vw;
+  right: 0;
+}
+.sr {
+  color: #bdbdbd;
+  font-size: 3.2vw;
+  position: absolute;
+  right: 4.6vw;
+  bottom: -5px;
+}
+.welfare {
+  margin: 4.2667vw;
+  padding: 4.2667vw;
+  background: #f9f9f9;
+  border-radius: 3.5333vw;
+}
+.welfare h3 {
+  font-size: 4.2667vw;
+  color: #babdc6;
+  line-height: 8vw;
+}
+.welfare img {
+  width: 4vw;
+  height: 4vw;
+  position: relative;
+  top: 0.8vw;
+}
+.welfare li {
+  font-size: 3.2vw;
+  line-height: 8vw;
+}
+.hint {
+  width: 100%;
+  background: #f3fbff;
+}
+.hint p {
+  padding: 4.2667vw;
+  color: #8ddbff;
+  font-size: 3.7333vw;
+}
+.succeed img {
+  width: 45vw;
+  height: 40vw;
+  padding: 12vw 27.5vw 0 27.5vw;
+}
+.succeed-bottom {
+  background: linear-gradient(#f9f9f9, #fff);
+  border-top-left-radius: 36vw;
+  border-top-right-radius: 36vw;
+  margin-top: -11.3333vw;
+}
+.succeed-bottom h2 {
+  text-align: center;
+  padding: 6.4vw;
+  font-size: 4.2667vw;
+  font-weight: bold;
+}
+.succeed-bottom div {
+  margin: 6.4667vw;
+  padding: 4.2667vw;
+  background: #fff;
+  border-radius: 3.5333vw;
+  line-height: 9.6vw;
+  color: #d3d4d9;
+  font-size: 4vw;
+}
+.username {
+  padding-left: 7.2vw;
+  color: #b8bbc2;
+}
+.username2 {
+  padding-left: 3.2667vw;
+  color: #b8bbc2;
+}
+.welfare p {
+  padding-left: 5.6667vw;
+}
+.s1 {
+  color: #565a63;
+}
+.s2 {
+  border-bottom-left-radius: 6vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  border-top-right-radius: 6vw;
+  padding: 0.6vw 4.2667vw;
+  background: #e5f7ff;
+  color: #25bcff;
+  height: 2vw;
+  margin-left: 2.6667vw;
+  font-size: 3.2vw;
+}
+.apply {
+  padding: 17vw;
+  font-size: 4.4vw;
+}
+.p-b {
+  text-align: center;
+  font-size: 3.2vw;
+  line-height: 7.4667vw;
+}
+.blue {
+  background: blue;
+  color: #fff;
+}
